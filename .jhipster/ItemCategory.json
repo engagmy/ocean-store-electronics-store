@@ -1,0 +1,18 @@
+{
+  "applications": "*",
+  "entityTableName": "item_category",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "active",
+      "fieldType": "Boolean"
+    }
+  ],
+  "name": "ItemCategory",
+  "pagination": "pagination",
+  "relationships": []
+}
